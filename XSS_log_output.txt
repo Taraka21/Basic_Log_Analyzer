@@ -1,0 +1,11 @@
+Total lines processed: 31
+
+SQL_Injection: 30
+Remedies: Use parameterized queries to separate SQL code from user input, and validate and sanitize all user inputs.
+
+Cross_Site_Scripting(XSS): 13
+Remedy:Validate and sanitize all user inputs,Implement a strict Content Security Policy (CSP).
+
+malware: 6
+Remedy: Run a full system antivirus scan, isolate the affected systems, and update your antivirus software.
+

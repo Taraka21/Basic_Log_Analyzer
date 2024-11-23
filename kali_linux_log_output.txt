@@ -1,0 +1,5 @@
+Total lines processed: 90
+
+SQL_Injection: 2
+Remedies: Use parameterized queries to separate SQL code from user input, and validate and sanitize all user inputs.
+

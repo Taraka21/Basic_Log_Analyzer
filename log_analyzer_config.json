@@ -1,0 +1,24 @@
+{
+    "patterns": {
+        "malware": "malware|virus|trojan|ransomware",
+        "file_tampering": "file tampering|unauthorized file modification",
+        "unauthorized_access": "unauthorized access|login failure|invalid login|access denied",
+        "security_breach": "security breach|data breach|intrusion detected|unauthorized entry",
+        "advanced_malware": "zero-day|advanced persistent threat|rootkit",
+        "phishing": "phishing|spear phishing|fraudulent email",
+        "data_leakage": "data leakage|data exfiltration|information leak",
+        "SQL_Injection": "('|\bOR\b|\bAND\b|--|#|;|\bDROP\b|\bSELECT\b|\bINSERT\b|\bDELETE\b|\bUPDATE\b|\bUNION\b|\bALTER\b|\bCREATE\b|\bEXEC\b|\bCHAR\b|\bXP_|\bSHUTDOWN\b|\bINTO\b)",
+        "Cross_Site_Scripting(XSS)": "(<script.*?>.*?</script>|<.*?on\\w+=.*?>|javascript:|<iframe.*?>|<object.*?>|<embed.*?>|<img.*?src=.*?>|<svg.*?>.*?</svg>)"
+    },
+    "remedies": {
+        "malware": "Remedy: Run a full system antivirus scan, isolate the affected systems, and update your antivirus software.",
+        "file_tampering": "Remedy: Restore the affected files from backup, change file permissions, and monitor file integrity.",
+        "unauthorized_access": "Remedy: Reset passwords, implement multi-factor authentication, and review access logs.",
+        "security_breach": "Remedy: Disconnect affected systems from the network, conduct a thorough investigation, and notify affected parties.",
+        "advanced_malware": "Remedy: Employ advanced threat detection tools, perform a deep system scan, and update security protocols.",
+        "phishing": "Remedy: Educate users about phishing, implement email filtering solutions, and report the phishing attempt.",
+        "data_leakage": "Remedy: Identify the source of the leak, implement data loss prevention solutions, and review data access policies.",
+        "SQL_Injection": "Remedies: Use parameterized queries to separate SQL code from user input, and validate and sanitize all user inputs.",
+        "Cross_Site_Scripting(XSS)": "Remedy:Validate and sanitize all user inputs,Implement a strict Content Security Policy (CSP)."
+    }
+}

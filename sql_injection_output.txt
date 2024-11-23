@@ -1,0 +1,14 @@
+Total lines processed: 40
+
+SQL_Injection: 24
+Remedies: Use parameterized queries to separate SQL code from user input, and validate and sanitize all user inputs.
+
+malware: 8
+Remedy: Run a full system antivirus scan, isolate the affected systems, and update your antivirus software.
+
+unauthorized_access: 3
+Remedy: Reset passwords, implement multi-factor authentication, and review access logs.
+
+security_breach: 7
+Remedy: Disconnect affected systems from the network, conduct a thorough investigation, and notify affected parties.
+

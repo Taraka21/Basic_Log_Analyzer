@@ -1,0 +1,14 @@
+Total lines processed: 323
+
+unauthorized_access: 53
+Remedy: Reset passwords, implement multi-factor authentication, and review access logs.
+
+security_breach: 10
+Remedy: Disconnect affected systems from the network, conduct a thorough investigation, and notify affected parties.
+
+malware: 24
+Remedy: Run a full system antivirus scan, isolate the affected systems, and update your antivirus software.
+
+data_leakage: 9
+Remedy: Identify the source of the leak, implement data loss prevention solutions, and review data access policies.
+
